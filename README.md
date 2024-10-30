@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Crossword Puzzle
+
+AI Crossword puzzle is a super exciting AI template which generates cool crossword puzzles for you based on your selection of topic and level of difficulty
+
+## Table of Content
+
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [How to run the project](#how-to-run-the-project)
+- [Screenshots](#screenshots)
+- [How to use the application](#how-to-use-the-application)
+- [Use cases and similar project ideas](#use-cases-and-similar-project-ideas)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+
+## Live Demo
+
+
+## Features
+
+- AI Powered Crossword Puzzle application
+- Easy to use UI interface
+
+## Technologies Used
+
+- Tailwind CSS 
+- Next.js
+- AI Integration: OpenAI's GPT-4
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Next.js
+- OpenAI API key
+
+### How to run the project
+
+**1. Clone the repository:**
+
+```bash
+git clone
+cd 
+```
+
+**2. Install dependencies:**
+
+```bash
+npm install
+```
+
+**3. Set up environment variables:**
+
+Create a `.env.local` file in the root directory and add the following variables:
+
+```
+OPENAI_API_KEY=your_openai_api_key
+```
+
+**4. Run the development server:**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**5. Open your browser and navigate to `http://localhost:3000`**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+You should now see the AI Crossword Puzzle application running with Next.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Screenshots
 
-## Learn More
+## How to use the application
+- You just need to select the stream and the level of difficulty you want to get the puzzles for
+- Now solve the puzzle and check the answers
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We love contributions! Here's how you can help make the AI-powered Crossword puzzle even better:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the project (`gh repo fork `)
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](https://www.notion.so/0xmetaschool/LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+
+- OpenAI for providing the GPT-4 API
+- The Tailwind CSS team for their excellent React component library
+
+## Contact
+
+Please open an issue in the GitHub repository for any queries or support.
